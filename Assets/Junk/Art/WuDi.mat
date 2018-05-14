@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: WuDi
+  m_Shader: {fileID: 4800000, guid: b763f48ee563afb478146f6a691fc780, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 285eadd6606bcf047ab6dcb112ef20cf, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DecalTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 8900000, guid: 2e8717bdaa5dbf64192b0e434192a36f, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BurnTex
+        second:
+          m_Texture: {fileID: 2800000, guid: b42121a68a205414894a61fb2718f22d, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Normal
+        second:
+          m_Texture: {fileID: 2800000, guid: b2060841b50f19547b65988014846d0a, type: 3}
+          m_Scale: {x: 4, y: 2}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Specular
+        second:
+          m_Texture: {fileID: 2800000, guid: 8e4258c3183219e49bbc07b9bf39a7ca, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cubemap
+        second:
+          m_Texture: {fileID: 8900000, guid: 3c3fd0621ff8ab445a59dcc22090d74e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+      data:
+        first:
+          name: _InvFade
+        second: .00999999978
+      data:
+        first:
+          name: _Trans
+        second: .150000006
+      data:
+        first:
+          name: _Ref
+        second: 2
+      data:
+        first:
+          name: _WaveForce
+        second: .0149999997
+      data:
+        first:
+          name: _Freq
+        second: 75
+      data:
+        first:
+          name: _HeatTime
+        second: .300000012
+      data:
+        first:
+          name: _Wave
+        second: .200000003
+      data:
+        first:
+          name: _Cutout
+        second: 0
+      data:
+        first:
+          name: _FresnelExponent
+        second: 2.52631593
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .944827557, g: 1, b: 0, a: .501960814}
+      data:
+        first:
+          name: _TintColor
+        second: {r: .507352948, g: .494694859, b: .0484969579, a: .501960814}
+      data:
+        first:
+          name: _BurnColor
+        second: {r: 0, g: .255172729, b: 1, a: 1}
+      data:
+        first:
+          name: _node_2626
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _node_1020
+        second: {r: .470588207, g: .470588207, b: .470588207, a: .325490206}

@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: 9c21b9d3b3f55bb4ba4b49d57712bec5
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BugRig
+    100002: BugRigBackbody
+    100004: BugRigFrontbody
+    100006: BugRigHead
+    100008: BugRigLBackLeg1
+    100010: BugRigLBackLeg2
+    100012: BugRigLBackLegAnkle
+    100014: BugRigLBackLegPlatform
+    100016: BugRigLFrontLeg1
+    100018: BugRigLFrontLeg2
+    100020: BugRigLFrontLegAnkle
+    100022: BugRigLFrontLegPlatform
+    100024: BugRigMouthLeft
+    100026: BugRigMouthRight
+    100028: BugRigNeck
+    100030: BugRigRBackLeg1
+    100032: BugRigRBackLeg2
+    100034: BugRigRBackLegAnkle
+    100036: BugRigRBackLegPlatform
+    100038: BugRigRFrontLeg1
+    100040: BugRigRFrontLeg2
+    100042: BugRigRFrontLegAnkle
+    100044: BugRigRFrontLegPlatform
+    100046: BugRigSpine
+    100048: //RootNode
+    100050: ExplodingBug
+    100052: CrawlingBug
+    400000: BugRig
+    400002: BugRigBackbody
+    400004: BugRigFrontbody
+    400006: BugRigHead
+    400008: BugRigLBackLeg1
+    400010: BugRigLBackLeg2
+    400012: BugRigLBackLegAnkle
+    400014: BugRigLBackLegPlatform
+    400016: BugRigLFrontLeg1
+    400018: BugRigLFrontLeg2
+    400020: BugRigLFrontLegAnkle
+    400022: BugRigLFrontLegPlatform
+    400024: BugRigMouthLeft
+    400026: BugRigMouthRight
+    400028: BugRigNeck
+    400030: BugRigRBackLeg1
+    400032: BugRigRBackLeg2
+    400034: BugRigRBackLegAnkle
+    400036: BugRigRBackLegPlatform
+    400038: BugRigRFrontLeg1
+    400040: BugRigRFrontLeg2
+    400042: BugRigRFrontLegAnkle
+    400044: BugRigRFrontLegPlatform
+    400046: BugRigSpine
+    400048: //RootNode
+    400050: ExplodingBug
+    400052: CrawlingBug
+    4300000: ExplodingBug
+    4300002: CrawlingBug
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: ExplodingBug
+    13700002: CrawlingBug
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &190922
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 490922}
+  - 114: {fileID: 11490922}
+  m_Layer: 0
+  m_Name: GameConst
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &490922
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 190922}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11490922
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 190922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32af07f48f33844f7a777d24940134ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teamRed: {r: .970000029, g: .0399999991, b: .219999999, a: 1}
+  teamBlue: {r: .0399999991, g: .119999997, b: .970000029, a: 1}
+  TEAM_RED: 0
+  TEAM_BLUE: 1
+  MaxRotateChange: 15
+  TowerMaxRotateChange: 20
+  MoveSpeed: 4
+  BulletSpeed: 20
+  SectorDegree: 10
+  SectorDistance: 20
+  SectorLength: 15
+  AssistDamage: 50
+  StaticShootBuffShowDelay: 0
+  StaticShootBuffDamageRatio: 2
+  NuclearWaitTime: 5
+  NuclearWorkTime: 3
+  NewMatchLevel: 3
+  KnockBackSpeed: 10
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 190922}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

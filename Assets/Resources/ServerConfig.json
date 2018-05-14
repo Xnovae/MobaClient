@@ -1,0 +1,6 @@
+{
+    "HttpServerListenPort": "12030",
+    "Port": "12031",
+	"UDPPort" : "12032",
+	"UDPClientPort" : 12033
+}

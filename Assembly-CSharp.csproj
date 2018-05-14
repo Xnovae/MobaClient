@@ -1,0 +1,1461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectGuid>{12F44184-A422-5F27-22E6-507969043F15}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_1_0;UNITY_2018_1;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>2018.1.0f2</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\LanguageSelection.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\TypewriterEffect.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIButton.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIButtonActivate.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIButtonColor.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIButtonKeys.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIButtonMessage.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIButtonOffset.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIButtonRotation.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIButtonScale.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UICenterOnChild.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UICenterOnClick.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIDragCamera.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIDragDropContainer.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIDragDropItem.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIDragDropRoot.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIDraggableCamera.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIDragObject.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIDragResize.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIDragScrollView.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIEventTrigger.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIForwardEvents.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIGrid.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIImageButton.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIKeyBinding.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIKeyNavigation.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIPlayAnimation.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIPlaySound.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIPlayTween.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIPopupList.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIProgressBar.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UISavedOption.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIScrollBar.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIScrollView.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UISlider.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UISoundVolume.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UITable.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIToggle.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIToggledComponents.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIToggledObjects.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIWidgetContainer.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Interaction\UIWrapContent.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Internal\ActiveAnimation.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Internal\AnimationOrTween.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Internal\BetterList.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Internal\BMFont.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Internal\BMGlyph.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Internal\BMSymbol.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Internal\ByteReader.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Internal\EventDelegate.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Internal\Localization.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Internal\NGUIDebug.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Internal\NGUIMath.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Internal\NGUIText.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Internal\NGUITools.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Internal\PropertyBinding.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Internal\PropertyReference.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Internal\RealTime.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Internal\SpringPanel.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Internal\UIBasicSprite.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Internal\UIDrawCall.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Internal\UIEventListener.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Internal\UIGeometry.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Internal\UIRect.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Internal\UISnapshotPoint.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Internal\UIWidget.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Tweening\AnimatedAlpha.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Tweening\AnimatedColor.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Tweening\SpringPosition.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Tweening\TweenAlpha.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Tweening\TweenColor.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Tweening\TweenFOV.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Tweening\TweenHeight.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Tweening\TweenOrthoSize.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Tweening\TweenPosition.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Tweening\TweenRotation.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Tweening\TweenScale.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Tweening\TweenTransform.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Tweening\TweenVolume.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Tweening\TweenWidth.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\Tweening\UITweener.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\UI\UI2DSprite.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\UI\UI2DSpriteAnimation.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\UI\UIAnchor.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\UI\UIAtlas.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\UI\UICamera.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\UI\UIFont.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\UI\UIInput.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\UI\UILabel.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\UI\UILocalize.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\UI\UIOrthoCamera.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\UI\UIPanel.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\UI\UIRoot.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\UI\UISprite.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\UI\UISpriteAnimation.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\UI\UISpriteData.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\UI\UIStretch.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\UI\UITextList.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\UI\UITexture.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\UI\UITooltip.cs" />
+    <Compile Include="Assets\AllUIs\NGUI\Scripts\UI\UIViewport.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\changelog.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\AI\AILerp.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\AI\AIPath.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\AI\NavmeshController.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\AI\RichAI.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\AI\RichPath.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\AI\Seeker.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\astarclasses.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\AstarData.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\AstarMath.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\AstarPath.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\GraphUpdateScene.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\GraphUpdateShape.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\Misc\AnimationLink.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\Misc\AstarDebugger.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\Misc\AstarEnumFlagAttr.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\Misc\BinaryHeap.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\Misc\GraphEditorBase.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\Misc\GraphModifier.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\Misc\GraphUpdateProcessor.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\Misc\Int3.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\Misc\ListPool.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\Misc\NodeLink.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\Misc\NodeLink2.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\Misc\NodeLink3.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\Misc\ObjectPool.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\Misc\PathPool.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\Misc\PathProcessor.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\Misc\PathReturnQueue.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\Misc\StackPool.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\Misc\ThreadControlQueue.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\Misc\WindowsStoreCompatibility.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\Misc\WorkItemProcessor.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\Nodes\GraphNode.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\Path.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\PathHandler.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\RVO\RVOAgent.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\RVO\RVOCoreObstacle.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\RVO\RVOCoreSimulator.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\RVO\RVOLine.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\RVO\RVOQuadtree.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\Serialization\JsonConverters.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\Serialization\JsonSerializer.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\Serialization\SimpleJsonReplacement.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Core\Serialization\SimpleZipReplacement.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\Example11_RVO\GroupController.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\Example11_RVO\LightweightRVO.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\Example11_RVO\RVOAgentPlacer.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\Example11_RVO\RVOExampleAgent.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\Example12_Procedural\ProceduralGridMover.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\Example12_Procedural\ProceduralWorld.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\Example13_Moving\BezierMover.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\Example13_Moving\LocalSpaceGraph.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\Example13_Moving\LocalSpaceRichAI.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\Example8_PathTypes\PathTypesDemo.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\ExampleScripts\AIFollow.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\ExampleScripts\AstarSmoothFollow2.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\ExampleScripts\DoorController.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\ExampleScripts\DynamicGridObstacle.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\ExampleScripts\MineBotAI.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\ExampleScripts\NavmeshClamp.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\ExampleScripts\ObjectPlacer.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\ExampleScripts\RecastTileUpdate.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\ExampleScripts\RecastTileUpdateHandler.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\ExampleScenes\ExampleScripts\TargetMover.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Generators\Base.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Generators\GridGenerator.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Generators\LayerGridGraphGenerator.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Generators\NavMeshGenerator.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Generators\NodeClasses\GridNode.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Generators\NodeClasses\PointNode.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Generators\NodeClasses\TriangleMeshNode.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Generators\PointGenerator.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Generators\QuadtreeGraph.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Generators\RecastGenerator.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Generators\Utilities\BBTree.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Generators\Utilities\EuclideanEmbedding.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Generators\Utilities\NavMeshRenderer.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Generators\Utilities\ObjImporter.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Generators\Utilities\RecastBBTree.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Generators\Utilities\RecastMeshGatherer.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Generators\Utilities\RecastMeshObj.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Generators\Utilities\TileHandler.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Generators\Utilities\Voxels\DebugUtility.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Generators\Utilities\Voxels\VoxelClasses.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Generators\Utilities\Voxels\VoxelContour.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Generators\Utilities\Voxels\VoxelMesh.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Generators\Utilities\Voxels\VoxelPolygonClipper.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Generators\Utilities\Voxels\VoxelRasterization.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Generators\Utilities\Voxels\VoxelRegion.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Generators\Utilities\Voxels\VoxelUtility.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Modifiers\AdvancedSmooth.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Modifiers\AlternativePath.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Modifiers\FunnelModifier.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Modifiers\Modifiers.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Modifiers\RadiusModifier.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Modifiers\RaycastModifier.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Modifiers\SimpleSmoothModifier.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Modifiers\StartEndModifier.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Navmesh\NavmeshAdd.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Navmesh\NavmeshCut.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Navmesh\RelevantGraphSurface.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Navmesh\TileHandlerHelper.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Pathfinders\ABPath.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Pathfinders\ConstantPath.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Pathfinders\FleePath.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Pathfinders\FloodPath.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Pathfinders\FloodPathTracer.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Pathfinders\MultiTargetPath.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Pathfinders\RandomPath.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Pathfinders\XPath.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\RVO\RVOController.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\RVO\RVONavmesh.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\RVO\RVOObstacle.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\RVO\RVOSimulator.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\RVO\RVOSquareObstacle.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Utilities\AstarChecksum.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Utilities\AstarMemory.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Utilities\AstarParallel.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Utilities\AstarProfiler.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Utilities\DotNetReplacements.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Utilities\GraphUpdateUtilities.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Utilities\LockFreeStack.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Utilities\PathUtilities.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Utilities\ProfileHelper.cs" />
+    <Compile Include="Assets\AstarPathfindingProject\Utilities\UnityReferenceHelper.cs" />
+    <Compile Include="Assets\Attributes\MultipleLine.cs" />
+    <Compile Include="Assets\Attributes\NpcAttributeAtt.cs" />
+    <Compile Include="Assets\Attributes\PopupAttribute.cs" />
+    <Compile Include="Assets\Moba\MOBA Heroes\Creeps\Moba Creeps\Siege\Mesh\projectile\scrollingTrail.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\CreepMeleeAI.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\IPhysicCom.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\MainTowerAI.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\MeleeAttack.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\MeleeCharacter.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\MeleeDead.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\MeleeIdle.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\MeleeMove.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\MeleePhysicCom.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\MeSyncToServer.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\MobaCheckInGrass.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\MobaMeDead.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\MobaMePhysic.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\MobaMePlayerAI.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\MobaMePlayerIdle.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\MobaMePlayerMove.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\MobaMePlayerSkill.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\MobaMeStop.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\MobaMeSync.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\MobaMeSyncToServer.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\MobaModelLoader.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\MobaOtherIdle.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\MobaOtherMove.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\MobaOtherPlayer.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\MobaOtherSync.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\MobaPlayerCharacter.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\SpringAI.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\TowerAI.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\TowerAttack.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\TowerCharacter.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\TowerDead.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\TowerIdle.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\XiaoGuaiAI.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\XiaoGuaiCharacter.cs" />
+    <Compile Include="Assets\Moba\Scripts\AI\XiaoGuaiDeath.cs" />
+    <Compile Include="Assets\Moba\Scripts\Config\ExportNpcConfig.cs" />
+    <Compile Include="Assets\Moba\Scripts\Config\ExportSkillConfig.cs" />
+    <Compile Include="Assets\Moba\Scripts\Config\ListConfig.cs" />
+    <Compile Include="Assets\Moba\Scripts\Config\NpcConfig.cs" />
+    <Compile Include="Assets\Moba\Scripts\Data\MobaDataMgr.cs" />
+    <Compile Include="Assets\Moba\Scripts\Data\NpcDataManager.cs" />
+    <Compile Include="Assets\Moba\Scripts\Grid\BaseGrid.cs" />
+    <Compile Include="Assets\Moba\Scripts\Grid\DynamicGrid.cs" />
+    <Compile Include="Assets\Moba\Scripts\Grid\DynamicGridWPool.cs" />
+    <Compile Include="Assets\Moba\Scripts\Grid\PartialGridWPool.cs" />
+    <Compile Include="Assets\Moba\Scripts\Grid\StaticGrid.cs" />
+    <Compile Include="Assets\Moba\Scripts\GridSystem\AStarFinder.cs" />
+    <Compile Include="Assets\Moba\Scripts\GridSystem\DiagonalMovement.cs" />
+    <Compile Include="Assets\Moba\Scripts\GridSystem\GridManager.cs" />
+    <Compile Include="Assets\Moba\Scripts\GridSystem\GridPos.cs" />
+    <Compile Include="Assets\Moba\Scripts\GridSystem\GridRect.cs" />
+    <Compile Include="Assets\Moba\Scripts\GridSystem\Heuristic.cs" />
+    <Compile Include="Assets\Moba\Scripts\GridSystem\JumpPointFinder.cs" />
+    <Compile Include="Assets\Moba\Scripts\GridSystem\NodePool.cs" />
+    <Compile Include="Assets\Moba\Scripts\GridSystem\ParamBase.cs" />
+    <Compile Include="Assets\Moba\Scripts\GridSystem\Util.cs" />
+    <Compile Include="Assets\Moba\Scripts\Skill\BulletTargetFly.cs" />
+    <Compile Include="Assets\Moba\Scripts\Test\DebugServerPos.cs" />
+    <Compile Include="Assets\Moba\Scripts\Test\DrawDir.cs" />
+    <Compile Include="Assets\Moba\Scripts\Test\TestEnable.cs" />
+    <Compile Include="Assets\Moba\Scripts\Test\TestMap.cs" />
+    <Compile Include="Assets\Moba\Scripts\Util\MobaUtil.cs" />
+    <Compile Include="Assets\Moba\Scripts\Util\MyVec3.cs" />
+    <Compile Include="Assets\Moba\Scripts\WayPoint\AllPlayerStart.cs" />
+    <Compile Include="Assets\Moba\Scripts\WayPoint\LevelConfigInit.cs" />
+    <Compile Include="Assets\Moba\Scripts\WayPoint\SpringPoint.cs" />
+    <Compile Include="Assets\Moba\Scripts\WayPoint\TowerPoint.cs" />
+    <Compile Include="Assets\Moba\Scripts\WayPoint\WayPointSystem.cs" />
+    <Compile Include="Assets\Moba\Scripts\WayPoint\XiaoGuaiMgr.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Enum\z_BrushMirror.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Enum\z_ComponentIndex.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Enum\z_Culling.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Enum\z_Direction.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Enum\z_MeshChannel.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Enum\z_MirrorCoordinateSpace.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Enum\z_ModelSource.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Enum\z_PaintMode.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Enum\z_PlacementDirection.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Enum\z_SelectionRenderState.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\MonoBehaviour\z_AdditionalVertexStreams.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\MonoBehaviour\z_OverlayRenderer.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\MonoBehaviour\z_ZoomOverride.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Type\z_AttributeLayout.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Type\z_ColorMask.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Type\z_CommonEdge.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Type\z_Edge.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Type\z_GradientSerializer.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Type\z_IHasDefault.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Type\z_IValid.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Type\z_Mesh.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Type\z_RndVec3.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Type\z_SplatSet.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Type\z_SplatWeight.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Utility\z_Math.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Utility\z_MeshUtility.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Utility\z_Util.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Utility\z_Vector.cs" />
+    <Compile Include="Assets\scripts\Action\ActionItem.cs" />
+    <Compile Include="Assets\scripts\AI\AIBase.cs" />
+    <Compile Include="Assets\scripts\AI\BossAI.cs" />
+    <Compile Include="Assets\scripts\AI\ChestAI.cs" />
+    <Compile Include="Assets\scripts\AI\ChestAI2.cs" />
+    <Compile Include="Assets\scripts\AI\CommonAI.cs" />
+    <Compile Include="Assets\scripts\AI\DropAIController.cs" />
+    <Compile Include="Assets\scripts\AI\FollowNpcAI.cs" />
+    <Compile Include="Assets\scripts\AI\HealAIController.cs" />
+    <Compile Include="Assets\scripts\AI\HideBlockAI.cs" />
+    <Compile Include="Assets\scripts\AI\LangAI.cs" />
+    <Compile Include="Assets\scripts\AI\MoveBlockCanKillAI.cs" />
+    <Compile Include="Assets\scripts\AI\NotMoveBlockCanKillAI.cs" />
+    <Compile Include="Assets\scripts\AI\NpcAI.cs" />
+    <Compile Include="Assets\scripts\AI\NuclearAI.cs" />
+    <Compile Include="Assets\scripts\AI\OtherPlayerAI.cs" />
+    <Compile Include="Assets\scripts\AI\OtherTankAIController.cs" />
+    <Compile Include="Assets\scripts\AI\PetAI.cs" />
+    <Compile Include="Assets\scripts\AI\PlayerAIController.cs" />
+    <Compile Include="Assets\scripts\AI\QuestNpcAI.cs" />
+    <Compile Include="Assets\scripts\AI\RabbitAI.cs" />
+    <Compile Include="Assets\scripts\AI\RateAI.cs" />
+    <Compile Include="Assets\scripts\AI\RateKingAI.cs" />
+    <Compile Include="Assets\scripts\AI\SentryAI.cs" />
+    <Compile Include="Assets\scripts\AI\ShanShuoAI.cs" />
+    <Compile Include="Assets\scripts\AI\ShiXueWolfAI.cs" />
+    <Compile Include="Assets\scripts\AI\SnakeAI.cs" />
+    <Compile Include="Assets\scripts\AI\State\AICharacter.cs" />
+    <Compile Include="Assets\scripts\AI\State\AIState.cs" />
+    <Compile Include="Assets\scripts\AI\State\Boss\BossCharacter.cs" />
+    <Compile Include="Assets\scripts\AI\State\Boss\BossCombat.cs" />
+    <Compile Include="Assets\scripts\AI\State\Boss\BossDead.cs" />
+    <Compile Include="Assets\scripts\AI\State\Boss\BossIdle.cs" />
+    <Compile Include="Assets\scripts\AI\State\Chest\ChestCharacter.cs" />
+    <Compile Include="Assets\scripts\AI\State\Chest\ChestDead.cs" />
+    <Compile Include="Assets\scripts\AI\State\Chest\ChestIdle.cs" />
+    <Compile Include="Assets\scripts\AI\State\ChestAI2\ChestKnockBack.cs" />
+    <Compile Include="Assets\scripts\AI\State\FollowNpc\FollowDead.cs" />
+    <Compile Include="Assets\scripts\AI\State\FollowNpc\FollowIdle.cs" />
+    <Compile Include="Assets\scripts\AI\State\FollowNpc\FollowNpcCharacter.cs" />
+    <Compile Include="Assets\scripts\AI\State\FollowNpc\FollowRun.cs" />
+    <Compile Include="Assets\scripts\AI\State\Human\HumanCharacter.cs" />
+    <Compile Include="Assets\scripts\AI\State\Human\HumanCombat.cs" />
+    <Compile Include="Assets\scripts\AI\State\Human\HumanDead.cs" />
+    <Compile Include="Assets\scripts\AI\State\Human\HumanIdle.cs" />
+    <Compile Include="Assets\scripts\AI\State\Human\HumanJump.cs" />
+    <Compile Include="Assets\scripts\AI\State\Human\HumanMove.cs" />
+    <Compile Include="Assets\scripts\AI\State\Human\HumanSkill.cs" />
+    <Compile Include="Assets\scripts\AI\State\Human\HumanStunned.cs" />
+    <Compile Include="Assets\scripts\AI\State\Human\JumpSkillState.cs" />
+    <Compile Include="Assets\scripts\AI\State\Human\OtherPlayerJump.cs" />
+    <Compile Include="Assets\scripts\AI\State\Human\OtherPlayerMove.cs" />
+    <Compile Include="Assets\scripts\AI\State\Monster\MonsterCharacter.cs" />
+    <Compile Include="Assets\scripts\AI\State\Monster\MonsterCheckUseSkill.cs" />
+    <Compile Include="Assets\scripts\AI\State\Monster\MonsterCombat.cs" />
+    <Compile Include="Assets\scripts\AI\State\Monster\MonsterDead.cs" />
+    <Compile Include="Assets\scripts\AI\State\Monster\MonsterFlee.cs" />
+    <Compile Include="Assets\scripts\AI\State\Monster\MonsterIdle.cs" />
+    <Compile Include="Assets\scripts\AI\State\Monster\MonsterKnockBack.cs" />
+    <Compile Include="Assets\scripts\AI\State\Monster\MonsterSkill.cs" />
+    <Compile Include="Assets\scripts\AI\State\Pet\PetCharacter.cs" />
+    <Compile Include="Assets\scripts\AI\State\Pet\PetDead.cs" />
+    <Compile Include="Assets\scripts\AI\State\Pet\PetIdle.cs" />
+    <Compile Include="Assets\scripts\AI\State\Pet\PetSkill.cs" />
+    <Compile Include="Assets\scripts\AI\State\QuestNpc\QuestIdle.cs" />
+    <Compile Include="Assets\scripts\AI\State\QuestNpc\QuestNpcCharacter.cs" />
+    <Compile Include="Assets\scripts\AI\State\ReliveDead.cs" />
+    <Compile Include="Assets\scripts\AI\State\Sentry\SentryDead.cs" />
+    <Compile Include="Assets\scripts\AI\State\Sentry\SentryIdle.cs" />
+    <Compile Include="Assets\scripts\AI\State\Sentry\SentrySkill.cs" />
+    <Compile Include="Assets\scripts\AI\State\SnakeIdle.cs" />
+    <Compile Include="Assets\scripts\AI\State\SnakeMove.cs" />
+    <Compile Include="Assets\scripts\AI\State\Summon\SummonCombat.cs" />
+    <Compile Include="Assets\scripts\AI\State\Summon\SummonIdle.cs" />
+    <Compile Include="Assets\scripts\AI\State\Tank\TankCharacter.cs" />
+    <Compile Include="Assets\scripts\AI\State\Tank\TankDead.cs" />
+    <Compile Include="Assets\scripts\AI\State\Tank\TankIdle.cs" />
+    <Compile Include="Assets\scripts\AI\State\Tank\TankKnockBack.cs" />
+    <Compile Include="Assets\scripts\AI\State\Tank\TankMoveAndShoot.cs" />
+    <Compile Include="Assets\scripts\AI\State\Tank\TankShoot.cs" />
+    <Compile Include="Assets\scripts\AI\State\Tank\TankSkill.cs" />
+    <Compile Include="Assets\scripts\AI\State\Tank\TankStop.cs" />
+    <Compile Include="Assets\scripts\AI\StoryAI.cs" />
+    <Compile Include="Assets\scripts\AI\StoryNpcAI.cs" />
+    <Compile Include="Assets\scripts\AI\SummonAI.cs" />
+    <Compile Include="Assets\scripts\AI\TankAIController.cs" />
+    <Compile Include="Assets\scripts\AI\ThiefAI.cs" />
+    <Compile Include="Assets\scripts\AI\WarnZoneAI.cs" />
+    <Compile Include="Assets\scripts\AssetBundleScript\AssetBundleData.cs" />
+    <Compile Include="Assets\scripts\AssetBundleScript\AssetBundleExport.cs" />
+    <Compile Include="Assets\scripts\AssetBundleScript\AssetBundleLoader.cs" />
+    <Compile Include="Assets\scripts\AssetBundleScript\UpdateManager.cs" />
+    <Compile Include="Assets\scripts\Character\BlockPhysic.cs" />
+    <Compile Include="Assets\scripts\Character\BombBlocker.cs" />
+    <Compile Include="Assets\scripts\Character\BuffComponent.cs" />
+    <Compile Include="Assets\scripts\Character\CharacterInfo.cs" />
+    <Compile Include="Assets\scripts\Character\DialogPlayer.cs" />
+    <Compile Include="Assets\scripts\Character\DropItemCheck.cs" />
+    <Compile Include="Assets\scripts\Character\DropItemSync.cs" />
+    <Compile Include="Assets\scripts\Character\ISyncInterface.cs" />
+    <Compile Include="Assets\scripts\Character\LogicCommand.cs" />
+    <Compile Include="Assets\scripts\Character\MonsterSync.cs" />
+    <Compile Include="Assets\scripts\Character\MonsterSyncToServer.cs" />
+    <Compile Include="Assets\scripts\Character\MoveController.cs" />
+    <Compile Include="Assets\scripts\Character\MyAnimationEvent.cs" />
+    <Compile Include="Assets\scripts\Character\MySelfAttributeSync.cs" />
+    <Compile Include="Assets\scripts\Character\NpcAttribute.cs" />
+    <Compile Include="Assets\scripts\Character\NpcEquipment.cs" />
+    <Compile Include="Assets\scripts\Character\PhysicComponent.cs" />
+    <Compile Include="Assets\scripts\Character\PlayerDataInterface.cs" />
+    <Compile Include="Assets\scripts\Character\PlayerSpeciallWeaponBuff.cs" />
+    <Compile Include="Assets\scripts\Character\PlayerSync.cs" />
+    <Compile Include="Assets\scripts\Character\PlayerSyncToServer.cs" />
+    <Compile Include="Assets\scripts\Character\PushableObject.cs" />
+    <Compile Include="Assets\scripts\Character\SelectChar.cs" />
+    <Compile Include="Assets\scripts\Character\SetShadowPlane.cs" />
+    <Compile Include="Assets\scripts\Character\ShadowComponent.cs" />
+    <Compile Include="Assets\scripts\Character\ShootManager.cs" />
+    <Compile Include="Assets\scripts\Character\TankPhysicComponent.cs" />
+    <Compile Include="Assets\scripts\Character\TowerAutoCheck.cs" />
+    <Compile Include="Assets\scripts\ConfigReader\AdjustTexture.cs" />
+    <Compile Include="Assets\scripts\ConfigReader\BlockGridPos.cs" />
+    <Compile Include="Assets\scripts\ConfigReader\CreateRoomList.cs" />
+    <Compile Include="Assets\scripts\ConfigReader\EntityConfigExport.cs" />
+    <Compile Include="Assets\scripts\ConfigReader\MakeAudio.cs" />
+    <Compile Include="Assets\scripts\ConfigReader\MakeParticle.cs" />
+    <Compile Include="Assets\scripts\ConfigReader\MakeScene.cs" />
+    <Compile Include="Assets\scripts\ConfigReader\RoomList.cs" />
+    <Compile Include="Assets\scripts\ConfigReader\SimpleMakeScene.cs" />
+    <Compile Include="Assets\scripts\ConfigReader\TileManager.cs" />
+    <Compile Include="Assets\scripts\ConfigReader\UpdateAllModel.cs" />
+    <Compile Include="Assets\scripts\ConfigReader\UpdateWaveNum.cs" />
+    <Compile Include="Assets\scripts\core\BackgroundSound.cs" />
+    <Compile Include="Assets\scripts\core\KBNetworkView.cs" />
+    <Compile Include="Assets\scripts\core\KBNetworkViewIncludeDefine.cs" />
+    <Compile Include="Assets\scripts\core\ParticlePool.cs" />
+    <Compile Include="Assets\scripts\core\SaveGame.cs" />
+    <Compile Include="Assets\scripts\CutScene\Attribute\CutSceneAttribute.cs" />
+    <Compile Include="Assets\scripts\CutScene\CutScene.cs" />
+    <Compile Include="Assets\scripts\CutScene\CutSceneClip.cs" />
+    <Compile Include="Assets\scripts\CutScene\CutSceneMedia.cs" />
+    <Compile Include="Assets\scripts\CutScene\CutSceneSubtitles.cs" />
+    <Compile Include="Assets\scripts\CutScene\CutSceneTrack.cs" />
+    <Compile Include="Assets\scripts\CutScene\CutSceneTrigger.cs" />
+    <Compile Include="Assets\scripts\CutScene\DialogCutScene.cs" />
+    <Compile Include="Assets\scripts\CutScene\DialogRender.cs" />
+    <Compile Include="Assets\scripts\Data\BackPackData.cs" />
+    <Compile Include="Assets\scripts\Data\BombData.cs" />
+    <Compile Include="Assets\scripts\Data\ChatData.cs" />
+    <Compile Include="Assets\scripts\Data\EquipData.cs" />
+    <Compile Include="Assets\scripts\Data\ForgeData.cs" />
+    <Compile Include="Assets\scripts\Data\GraphData.cs" />
+    <Compile Include="Assets\scripts\Data\ItemData.cs" />
+    <Compile Include="Assets\scripts\Data\ItemGem.cs" />
+    <Compile Include="Assets\scripts\Data\MissileData.cs" />
+    <Compile Include="Assets\scripts\Data\RoomData.cs" />
+    <Compile Include="Assets\scripts\Data\RuleSet.cs" />
+    <Compile Include="Assets\scripts\Data\SkillData.cs" />
+    <Compile Include="Assets\scripts\Data\UnitData.cs" />
+    <Compile Include="Assets\scripts\DataPool\ActivityController.cs" />
+    <Compile Include="Assets\scripts\DataPool\BackPack.cs" />
+    <Compile Include="Assets\scripts\DataPool\CharacterData.cs" />
+    <Compile Include="Assets\scripts\DataPool\CopyController.cs" />
+    <Compile Include="Assets\scripts\DataPool\PetController.cs" />
+    <Compile Include="Assets\scripts\DataPool\RecordData.cs" />
+    <Compile Include="Assets\scripts\DataPool\SkillDataController.cs" />
+    <Compile Include="Assets\scripts\DataPool\SoulTower.cs" />
+    <Compile Include="Assets\scripts\DataPool\Talk.cs" />
+    <Compile Include="Assets\scripts\Effect\AdjustDirAlways.cs" />
+    <Compile Include="Assets\scripts\Effect\AdjustEmitPosAndRotation.cs" />
+    <Compile Include="Assets\scripts\Effect\AdjustParticleRenderQueue.cs" />
+    <Compile Include="Assets\scripts\Effect\AnimationController.cs" />
+    <Compile Include="Assets\scripts\Effect\Billboard.cs" />
+    <Compile Include="Assets\scripts\Effect\EnvParticle.cs" />
+    <Compile Include="Assets\scripts\Effect\GammaCorrection.cs" />
+    <Compile Include="Assets\scripts\Effect\GraphInit.cs" />
+    <Compile Include="Assets\scripts\Effect\HeatHaze.cs" />
+    <Compile Include="Assets\scripts\Effect\LightCamera.cs" />
+    <Compile Include="Assets\scripts\Effect\LightMapInit.cs" />
+    <Compile Include="Assets\scripts\Effect\LightMapObject.cs" />
+    <Compile Include="Assets\scripts\Effect\LightningSystem.cs" />
+    <Compile Include="Assets\scripts\Effect\LightSourceCamera.cs" />
+    <Compile Include="Assets\scripts\Effect\MeshUVTest.cs" />
+    <Compile Include="Assets\scripts\Effect\MotionBlur.cs" />
+    <Compile Include="Assets\scripts\Effect\MotionCamera.cs" />
+    <Compile Include="Assets\scripts\Effect\MotionMainCamera.cs" />
+    <Compile Include="Assets\scripts\Effect\PhysicInit.cs" />
+    <Compile Include="Assets\scripts\Effect\RainSystem.cs" />
+    <Compile Include="Assets\scripts\Effect\ShadowBlend.cs" />
+    <Compile Include="Assets\scripts\Effect\ShadowCamera.cs" />
+    <Compile Include="Assets\scripts\Effect\SkillLight.cs" />
+    <Compile Include="Assets\scripts\Effect\StaticBatch.cs" />
+    <Compile Include="Assets\scripts\Effect\WeaponTrail.cs" />
+    <Compile Include="Assets\scripts\Effect\WeaponTrailController.cs" />
+    <Compile Include="Assets\scripts\Event\DeadExpEvent.cs" />
+    <Compile Include="Assets\scripts\Event\DeadExpHandler.cs" />
+    <Compile Include="Assets\scripts\Event\EvtHandler.cs" />
+    <Compile Include="Assets\scripts\Event\IEventHandler.cs" />
+    <Compile Include="Assets\scripts\Event\MyEventSystem.cs" />
+    <Compile Include="Assets\scripts\Event\SpawnParticleHandler.cs" />
+    <Compile Include="Assets\scripts\FakeObject\FakeObjSystem.cs" />
+    <Compile Include="Assets\scripts\FakeObject\PlayerWindow.cs" />
+    <Compile Include="Assets\scripts\IAP\StoreEvents2.cs" />
+    <Compile Include="Assets\scripts\Input\CursorManager.cs" />
+    <Compile Include="Assets\scripts\Interface\DropGoods.cs" />
+    <Compile Include="Assets\scripts\Interface\FollowTarget.cs" />
+    <Compile Include="Assets\scripts\Interface\GameInterface.cs" />
+    <Compile Include="Assets\scripts\Interface\GameInterface_Backpack.cs" />
+    <Compile Include="Assets\scripts\Interface\GameInterface_Chat.cs" />
+    <Compile Include="Assets\scripts\Interface\GameInterface_Forge.cs" />
+    <Compile Include="Assets\scripts\Interface\GameInterface_Login.cs" />
+    <Compile Include="Assets\scripts\Interface\GameInterface_Package.cs" />
+    <Compile Include="Assets\scripts\Interface\GameInterface_Player.cs" />
+    <Compile Include="Assets\scripts\Interface\GameInterface_Skill.cs" />
+    <Compile Include="Assets\scripts\Interface\NpcDialogManager.cs" />
+    <Compile Include="Assets\scripts\Interface\PopupTextManager.cs" />
+    <Compile Include="Assets\scripts\Interface\WindowMng.cs" />
+    <Compile Include="Assets\scripts\LogicGroup\CommandHandler.cs" />
+    <Compile Include="Assets\scripts\LogicGroup\LogicGroup.cs" />
+    <Compile Include="Assets\scripts\LogicGroup\LogicLink.cs" />
+    <Compile Include="Assets\scripts\LogicGroup\LogicModel.cs" />
+    <Compile Include="Assets\scripts\LogicGroup\LogicNode.cs" />
+    <Compile Include="Assets\scripts\LogicGroup\LogicParticle.cs" />
+    <Compile Include="Assets\scripts\LogicGroup\LogicTimer.cs" />
+    <Compile Include="Assets\scripts\network\Bundle.cs" />
+    <Compile Include="Assets\scripts\network\ClientApp.cs" />
+    <Compile Include="Assets\scripts\network\Dbg.cs" />
+    <Compile Include="Assets\scripts\network\KBEngine.cs" />
+    <Compile Include="Assets\scripts\network\KCP.cs" />
+    <Compile Include="Assets\scripts\network\KCPClient.cs" />
+    <Compile Include="Assets\scripts\network\KCPPacket.cs" />
+    <Compile Include="Assets\scripts\network\LoopList.cs" />
+    <Compile Include="Assets\scripts\network\MainThreadLoop.cs" />
+    <Compile Include="Assets\scripts\network\Math.cs" />
+    <Compile Include="Assets\scripts\network\MemoryStream.cs" />
+    <Compile Include="Assets\scripts\network\Message.cs" />
+    <Compile Include="Assets\scripts\network\MessageReader.cs" />
+    <Compile Include="Assets\scripts\network\NetworkInterface.cs" />
+    <Compile Include="Assets\scripts\network\Packet.cs" />
+    <Compile Include="Assets\scripts\network\RemoteClient.cs" />
+    <Compile Include="Assets\scripts\network\RemoteUDPClient.cs" />
+    <Compile Include="Assets\scripts\network\SimpleUDPClient.cs" />
+    <Compile Include="Assets\scripts\Object\ComplexLayout.cs" />
+    <Compile Include="Assets\scripts\Object\DropItemStatic.cs" />
+    <Compile Include="Assets\scripts\Object\ItemDataRef.cs" />
+    <Compile Include="Assets\scripts\Object\MineDoor.cs" />
+    <Compile Include="Assets\scripts\Object\ObjectManager.cs" />
+    <Compile Include="Assets\scripts\Object\PropertyNode.cs" />
+    <Compile Include="Assets\scripts\Object\SafePoint.cs" />
+    <Compile Include="Assets\scripts\packetHandler\CopyPushHandler.cs" />
+    <Compile Include="Assets\scripts\packetHandler\GCPushActivateSkill.cs" />
+    <Compile Include="Assets\scripts\packetHandler\GCPushChat2Client.cs" />
+    <Compile Include="Assets\scripts\packetHandler\GCPushGetAchievement.cs" />
+    <Compile Include="Assets\scripts\packetHandler\GCPushGoodsCountChange.cs" />
+    <Compile Include="Assets\scripts\packetHandler\GCPushNotify.cs" />
+    <Compile Include="Assets\scripts\packetHandler\GCPushPackInfo.cs" />
+    <Compile Include="Assets\scripts\packetHandler\GCPushUnitAddBuffer.cs" />
+    <Compile Include="Assets\scripts\packetHandler\GCPushVipAttention.cs" />
+    <Compile Include="Assets\scripts\packetHandler\GCPushVipInfo.cs" />
+    <Compile Include="Assets\scripts\packetHandler\GCPushVipLevelExp.cs" />
+    <Compile Include="Assets\scripts\packetHandler\IPacketHandler.cs" />
+    <Compile Include="Assets\scripts\packetHandler\PlayerPushHandler.cs" />
+    <Compile Include="Assets\scripts\packetHandler\SkillPushHandler.cs" />
+    <Compile Include="Assets\scripts\Platform\AndroidSdkManager.cs" />
+    <Compile Include="Assets\scripts\Platform\PlatformSdkManager.cs" />
+    <Compile Include="Assets\scripts\Platform\StatisticsManager.cs" />
+    <Compile Include="Assets\scripts\Server\DataPool\PlayerData.cs" />
+    <Compile Include="Assets\scripts\Server\DataPool\ServerData.cs" />
+    <Compile Include="Assets\scripts\Server\DemoServer.cs" />
+    <Compile Include="Assets\scripts\Server\ServerBundle.cs" />
+    <Compile Include="Assets\scripts\Server\ServerHandler\ChatHandler.cs" />
+    <Compile Include="Assets\scripts\Server\ServerHandler\PlayerHandler.cs" />
+    <Compile Include="Assets\scripts\Server\ServerHandler\ShopHandler.cs" />
+    <Compile Include="Assets\scripts\Server\ServerHandler\SkillHandler.cs" />
+    <Compile Include="Assets\scripts\Server\ServerMsgReader.cs" />
+    <Compile Include="Assets\scripts\Server\ServerPacketHandler.cs" />
+    <Compile Include="Assets\scripts\Skill\Affix.cs" />
+    <Compile Include="Assets\scripts\Skill\AOETargetPlace.cs" />
+    <Compile Include="Assets\scripts\Skill\BackMove.cs" />
+    <Compile Include="Assets\scripts\Skill\BeamMove.cs" />
+    <Compile Include="Assets\scripts\Skill\BeamTarget.cs" />
+    <Compile Include="Assets\scripts\Skill\Bomb.cs" />
+    <Compile Include="Assets\scripts\Skill\BombSpawn.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\AddHP.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\AddHPMP.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\AddMP.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\Blind.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\BuffManager.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\ChangeDefaultSkill.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\DamageHP.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\DamageNearBy.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\DefenseAdd.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\FanTan.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\FanTanBullet.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\Frozen.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\Fushi.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\Ghost.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\GoldSteal.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\HideBuff.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\IEffect.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\IgnoreCol.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\KnockBack.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\KnockBackInv.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\LianFaBuff.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\NuclearBuff.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\OneTimeCriticalHit.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\ReduceHP.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\Relive.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\ShiXue.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\Silent.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\SkillCombineBuff.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\SlowDown.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\SlowDown2.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\StaticShootBuff.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\Stunned.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\SummonDuration.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\SuperShootBuff.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\WeaponBuff.cs" />
+    <Compile Include="Assets\scripts\Skill\Buff\WuDi.cs" />
+    <Compile Include="Assets\scripts\Skill\BuffLogicCore.cs" />
+    <Compile Include="Assets\scripts\Skill\Bullet.cs" />
+    <Compile Include="Assets\scripts\Skill\CameraShake.cs" />
+    <Compile Include="Assets\scripts\Skill\CameraShakeData.cs" />
+    <Compile Include="Assets\scripts\Skill\DamageShape.cs" />
+    <Compile Include="Assets\scripts\Skill\DaoDanBullet.cs" />
+    <Compile Include="Assets\scripts\Skill\DaoDanSpawn.cs" />
+    <Compile Include="Assets\scripts\Skill\FarAwayFromTarget.cs" />
+    <Compile Include="Assets\scripts\Skill\GouSuoBullet.cs" />
+    <Compile Include="Assets\scripts\Skill\GouSuoSpawn.cs" />
+    <Compile Include="Assets\scripts\Skill\HurtDirect.cs" />
+    <Compile Include="Assets\scripts\Skill\HurtNearby.cs" />
+    <Compile Include="Assets\scripts\Skill\JumpSkill.cs" />
+    <Compile Include="Assets\scripts\Skill\LaserBullet.cs" />
+    <Compile Include="Assets\scripts\Skill\LaserSpawn.cs" />
+    <Compile Include="Assets\scripts\Skill\MissileSpawn.cs" />
+    <Compile Include="Assets\scripts\Skill\RushShape.cs" />
+    <Compile Include="Assets\scripts\Skill\ShanShuoTarget.cs" />
+    <Compile Include="Assets\scripts\Skill\SimpleUnitSpawn.cs" />
+    <Compile Include="Assets\scripts\Skill\SkillDamageCaculate.cs" />
+    <Compile Include="Assets\scripts\Skill\SkillDataConfig.cs" />
+    <Compile Include="Assets\scripts\Skill\SkillFullInfo.cs" />
+    <Compile Include="Assets\scripts\Skill\SkillInfoComponent.cs" />
+    <Compile Include="Assets\scripts\Skill\SkillLayoutConfig.cs" />
+    <Compile Include="Assets\scripts\Skill\SkillLayoutRunner.cs" />
+    <Compile Include="Assets\scripts\Skill\SkillLogic.cs" />
+    <Compile Include="Assets\scripts\Skill\SkillObj\Skill117.cs" />
+    <Compile Include="Assets\scripts\Skill\SkillObj\Skill118.cs" />
+    <Compile Include="Assets\scripts\Skill\SkillObj\Skill120.cs" />
+    <Compile Include="Assets\scripts\Skill\SkillObj\Skill123.cs" />
+    <Compile Include="Assets\scripts\Skill\SkillObj\Skill125.cs" />
+    <Compile Include="Assets\scripts\Skill\SkillObj\Skill126.cs" />
+    <Compile Include="Assets\scripts\Skill\SkillObj\Skill133.cs" />
+    <Compile Include="Assets\scripts\Skill\SkillObj\SkillObj.cs" />
+    <Compile Include="Assets\scripts\Skill\SkillStateMachine.cs" />
+    <Compile Include="Assets\scripts\Skill\SpawnNuclearAnchor.cs" />
+    <Compile Include="Assets\scripts\Skill\TargetBindParticle.cs" />
+    <Compile Include="Assets\scripts\Skill\UnitSpawner.cs" />
+    <Compile Include="Assets\scripts\Skill\WolfCallEvent.cs" />
+    <Compile Include="Assets\scripts\Skill\WolfSpawn.cs" />
+    <Compile Include="Assets\scripts\test\TestApplication.cs" />
+    <Compile Include="Assets\scripts\test\TestChat.cs" />
+    <Compile Include="Assets\scripts\test\TestClientNet.cs" />
+    <Compile Include="Assets\scripts\test\TestDisable.cs" />
+    <Compile Include="Assets\scripts\test\TestEquip.cs" />
+    <Compile Include="Assets\scripts\test\TestFly.cs" />
+    <Compile Include="Assets\scripts\test\TestIAP.cs" />
+    <Compile Include="Assets\scripts\test\TestLoadLevel.cs" />
+    <Compile Include="Assets\scripts\test\TestPhysic.cs" />
+    <Compile Include="Assets\scripts\test\TestRay.cs" />
+    <Compile Include="Assets\scripts\test\TestRemoteServer.cs" />
+    <Compile Include="Assets\scripts\test\TestRpgWeaponTrail.cs" />
+    <Compile Include="Assets\scripts\test\TestShader.cs" />
+    <Compile Include="Assets\scripts\test\TestTask.cs" />
+    <Compile Include="Assets\scripts\test\TestWeaponTrail.cs" />
+    <Compile Include="Assets\scripts\UIScript\AttackUI.cs" />
+    <Compile Include="Assets\scripts\UIScript\BloodBar.cs" />
+    <Compile Include="Assets\scripts\UIScript\BloodBarUI.cs" />
+    <Compile Include="Assets\scripts\UIScript\CharacterSelect2.cs" />
+    <Compile Include="Assets\scripts\UIScript\CharCreate.cs" />
+    <Compile Include="Assets\scripts\UIScript\ChatUI\ChatUI.cs" />
+    <Compile Include="Assets\scripts\UIScript\CityAttackUI.cs" />
+    <Compile Include="Assets\scripts\UIScript\CopyUI\CopyCell.cs" />
+    <Compile Include="Assets\scripts\UIScript\CopyUI\CopyList.cs" />
+    <Compile Include="Assets\scripts\UIScript\CreateCharInit.cs" />
+    <Compile Include="Assets\scripts\UIScript\DialogUI.cs" />
+    <Compile Include="Assets\scripts\UIScript\FailUI.cs" />
+    <Compile Include="Assets\scripts\UIScript\ForgeUI\ForgeDetail.cs" />
+    <Compile Include="Assets\scripts\UIScript\ForgeUI\ForgeItem.cs" />
+    <Compile Include="Assets\scripts\UIScript\ForgeUI\ForgeList.cs" />
+    <Compile Include="Assets\scripts\UIScript\GameOver\GameOver.cs" />
+    <Compile Include="Assets\scripts\UIScript\GameOver\GameOverCell.cs" />
+    <Compile Include="Assets\scripts\UIScript\GameUI.cs" />
+    <Compile Include="Assets\scripts\UIScript\GMCmd.cs" />
+    <Compile Include="Assets\scripts\UIScript\InfoUI.cs" />
+    <Compile Include="Assets\scripts\UIScript\ItemName.cs" />
+    <Compile Include="Assets\scripts\UIScript\IUserInterface.cs" />
+    <Compile Include="Assets\scripts\UIScript\LeftController.cs" />
+    <Compile Include="Assets\scripts\UIScript\LevelUpPanel.cs" />
+    <Compile Include="Assets\scripts\UIScript\LoadingUI.cs" />
+    <Compile Include="Assets\scripts\UIScript\LoadingUI\LaunchLoadingUI.cs" />
+    <Compile Include="Assets\scripts\UIScript\LoginUI2.cs" />
+    <Compile Include="Assets\scripts\UIScript\MailCell.cs" />
+    <Compile Include="Assets\scripts\UIScript\MailUI.cs" />
+    <Compile Include="Assets\scripts\UIScript\MainDetailUI.cs" />
+    <Compile Include="Assets\scripts\UIScript\MainLoginInit.cs" />
+    <Compile Include="Assets\scripts\UIScript\MainLoginUI.cs" />
+    <Compile Include="Assets\scripts\UIScript\MainUI.cs" />
+    <Compile Include="Assets\scripts\UIScript\MainUI2.cs" />
+    <Compile Include="Assets\scripts\UIScript\Newbee.cs" />
+    <Compile Include="Assets\scripts\UIScript\NotifyUI\LeftTimeUI.cs" />
+    <Compile Include="Assets\scripts\UIScript\NotifyUI\NotifyUI.cs" />
+    <Compile Include="Assets\scripts\UIScript\NotifyUI\NotifyUIManager.cs" />
+    <Compile Include="Assets\scripts\UIScript\NotifyUI\ScoreCell.cs" />
+    <Compile Include="Assets\scripts\UIScript\NotifyUI\ScoreUI.cs" />
+    <Compile Include="Assets\scripts\UIScript\NotifyUI\SelectTankUI.cs" />
+    <Compile Include="Assets\scripts\UIScript\NotifyUI\TankCell.cs" />
+    <Compile Include="Assets\scripts\UIScript\NpcDialog.cs" />
+    <Compile Include="Assets\scripts\UIScript\PackageUI\DetailInfo.cs" />
+    <Compile Include="Assets\scripts\UIScript\PackageUI\LevelUpEquip.cs" />
+    <Compile Include="Assets\scripts\UIScript\PackageUI\LevelUpEquipLeft.cs" />
+    <Compile Include="Assets\scripts\UIScript\PackageUI\LevelUpEquipRight.cs" />
+    <Compile Include="Assets\scripts\UIScript\PackageUI\LevelUpGem.cs" />
+    <Compile Include="Assets\scripts\UIScript\PackageUI\LevelUpGemLeft.cs" />
+    <Compile Include="Assets\scripts\UIScript\PackageUI\PackageItem.cs" />
+    <Compile Include="Assets\scripts\UIScript\PackageUI\PackageLeft.cs" />
+    <Compile Include="Assets\scripts\UIScript\PackageUI\PackageRight.cs" />
+    <Compile Include="Assets\scripts\UIScript\PackageUI\PackageUI.cs" />
+    <Compile Include="Assets\scripts\UIScript\RealtimeStatisticsUI\RealtimeCell.cs" />
+    <Compile Include="Assets\scripts\UIScript\RealtimeStatisticsUI\RealtimeStatisticsUI.cs" />
+    <Compile Include="Assets\scripts\UIScript\RecordUI.cs" />
+    <Compile Include="Assets\scripts\UIScript\RenameUI.cs" />
+    <Compile Include="Assets\scripts\UIScript\RightController.cs" />
+    <Compile Include="Assets\scripts\UIScript\SelectHero\HeroCell.cs" />
+    <Compile Include="Assets\scripts\UIScript\SelectHero\SelectHero.cs" />
+    <Compile Include="Assets\scripts\UIScript\ShopUI.cs" />
+    <Compile Include="Assets\scripts\UIScript\ShopUI\AllCell.cs" />
+    <Compile Include="Assets\scripts\UIScript\ShopUI\OwnCell.cs" />
+    <Compile Include="Assets\scripts\UIScript\SkillBut.cs" />
+    <Compile Include="Assets\scripts\UIScript\SkillUI\SkillCell.cs" />
+    <Compile Include="Assets\scripts\UIScript\SkillUI\SkillSetUI.cs" />
+    <Compile Include="Assets\scripts\UIScript\SkillUI\SkillUI.cs" />
+    <Compile Include="Assets\scripts\UIScript\StoreUI\ChargeItem.cs" />
+    <Compile Include="Assets\scripts\UIScript\StoreUI\ChargeUI.cs" />
+    <Compile Include="Assets\scripts\UIScript\StoreUI\StoreItem.cs" />
+    <Compile Include="Assets\scripts\UIScript\StoreUI\StoreUI.cs" />
+    <Compile Include="Assets\scripts\UIScript\StoryDialog.cs" />
+    <Compile Include="Assets\scripts\UIScript\TankNum.cs" />
+    <Compile Include="Assets\scripts\UIScript\TipsPanel.cs" />
+    <Compile Include="Assets\scripts\UIScript\UserInfo\UserInfo.cs" />
+    <Compile Include="Assets\scripts\UIScript\VictoryUI.cs" />
+    <Compile Include="Assets\scripts\UIScript\VirtualJoystickRegion.cs" />
+    <Compile Include="Assets\scripts\util\AnimateTexture.cs" />
+    <Compile Include="Assets\scripts\util\CameraController.cs" />
+    <Compile Include="Assets\scripts\util\DebugPanel.cs" />
+    <Compile Include="Assets\scripts\util\GameConst.cs" />
+    <Compile Include="Assets\scripts\util\ImportFbx.cs" />
+    <Compile Include="Assets\scripts\util\NetDebug.cs" />
+    <Compile Include="Assets\scripts\util\NetworkUtil.cs" />
+    <Compile Include="Assets\scripts\util\PlaneCollision.cs" />
+    <Compile Include="Assets\scripts\util\RandomName.cs" />
+    <Compile Include="Assets\scripts\util\RemoveMonsterInZone.cs" />
+    <Compile Include="Assets\scripts\util\RemoveParticle.cs" />
+    <Compile Include="Assets\scripts\util\RemoveSelf.cs" />
+    <Compile Include="Assets\scripts\util\ResetPosition.cs" />
+    <Compile Include="Assets\scripts\util\SetCamPos.cs" />
+    <Compile Include="Assets\scripts\util\SetLightMap.cs" />
+    <Compile Include="Assets\scripts\util\ShaderResource.cs" />
+    <Compile Include="Assets\scripts\util\StringInjectExtension.cs" />
+    <Compile Include="Assets\scripts\util\SyncPosWithTarget.cs" />
+    <Compile Include="Assets\scripts\util\Util.cs" />
+    <Compile Include="Assets\scripts\util\Util2.cs" />
+    <Compile Include="Assets\scripts\World\ActiveNearCamera.cs" />
+    <Compile Include="Assets\scripts\World\BattleManager.cs" />
+    <Compile Include="Assets\scripts\World\CheckNearMainCamera.cs" />
+    <Compile Include="Assets\scripts\World\CScene.cs" />
+    <Compile Include="Assets\scripts\World\EnterZone.cs" />
+    <Compile Include="Assets\scripts\World\EntranceTrigger.cs" />
+    <Compile Include="Assets\scripts\World\ExitWall.cs" />
+    <Compile Include="Assets\scripts\World\Food\DamageZone.cs" />
+    <Compile Include="Assets\scripts\World\Food\FoodZone.cs" />
+    <Compile Include="Assets\scripts\World\Food\JobZone.cs" />
+    <Compile Include="Assets\scripts\World\Food\SpawnFood.cs" />
+    <Compile Include="Assets\scripts\World\Food\SuperShootZone.cs" />
+    <Compile Include="Assets\scripts\World\LoginNetwork.cs" />
+    <Compile Include="Assets\scripts\World\MapController\Map2.cs" />
+    <Compile Include="Assets\scripts\World\MapController\Map5.cs" />
+    <Compile Include="Assets\scripts\World\MapController\Map6.cs" />
+    <Compile Include="Assets\scripts\World\MapController\Map8.cs" />
+    <Compile Include="Assets\scripts\World\MapController\Map9.cs" />
+    <Compile Include="Assets\scripts\World\MapController\NetDateInterface.cs" />
+    <Compile Include="Assets\scripts\World\MatchRoom.cs" />
+    <Compile Include="Assets\scripts\World\MobaLevelConfigData.cs" />
+    <Compile Include="Assets\scripts\World\MultipleSpawner.cs" />
+    <Compile Include="Assets\scripts\World\NetMatchScene.cs" />
+    <Compile Include="Assets\scripts\World\NetworkLatency.cs" />
+    <Compile Include="Assets\scripts\World\NetworkLoadZone.cs" />
+    <Compile Include="Assets\scripts\World\NetworkScene.cs" />
+    <Compile Include="Assets\scripts\World\NpcDialogInterface.cs" />
+    <Compile Include="Assets\scripts\World\NpcManager.cs" />
+    <Compile Include="Assets\scripts\World\PlayerStart.cs" />
+    <Compile Include="Assets\scripts\World\Procedure\CharSelectProgress.cs" />
+    <Compile Include="Assets\scripts\World\Procedure\IProcedure.cs" />
+    <Compile Include="Assets\scripts\World\Procedure\LoginInit.cs" />
+    <Compile Include="Assets\scripts\World\Procedure\StoryProgress.cs" />
+    <Compile Include="Assets\scripts\World\ProtectWall.cs" />
+    <Compile Include="Assets\scripts\World\ReviveBattleManager.cs" />
+    <Compile Include="Assets\scripts\World\ScoreManager.cs" />
+    <Compile Include="Assets\scripts\World\SpawnChest.cs" />
+    <Compile Include="Assets\scripts\World\SpawnNpc.cs" />
+    <Compile Include="Assets\scripts\World\SpawnTrigger.cs" />
+    <Compile Include="Assets\scripts\World\StreamLoadLevel.cs" />
+    <Compile Include="Assets\scripts\World\TraceMainCamera.cs" />
+    <Compile Include="Assets\scripts\World\WaterEnvLoader.cs" />
+    <Compile Include="Assets\scripts\World\WorldManager.cs" />
+    <Compile Include="Assets\scripts\World\ZoneEntityManager.cs" />
+    <Compile Include="Assets\TestScripts\TestAV.cs" />
+    <Compile Include="Assets\TestScripts\TestForce.cs" />
+    <Compile Include="Assets\thirdParty\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
+    <Compile Include="Assets\thirdParty\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
+    <Compile Include="Assets\thirdParty\EffectExamples\Shared\Scripts\GunAim.cs" />
+    <Compile Include="Assets\thirdParty\EffectExamples\Shared\Scripts\GunShoot.cs" />
+    <Compile Include="Assets\thirdParty\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
+    <Compile Include="Assets\thirdParty\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
+    <Compile Include="Assets\thirdParty\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
+    <Compile Include="Assets\thirdParty\Heureka\HeurekaShared\Extensions.cs" />
+    <Compile Include="Assets\thirdParty\Heureka\HeurekaShared\Singleton.cs" />
+    <Compile Include="Assets\thirdParty\HUD Text\Scripts\HUDText.cs" />
+    <Compile Include="Assets\thirdParty\HUD Text\Scripts\UIFollowTarget.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Script\csColorChangerinSampleScene.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Script\csDemoScenceControl.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Script\csMouseOrbit.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Script\csParticleMake.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Script\csRotate.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Script\csSpiral.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\ShurikenEffectEditor\csShurikenEffectChanger.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\ShurikenEffectEditor\csShurikenEffectEditor.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\Blur.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\ContrastStretch.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\CreaseShading.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\DepthOfField.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\EdgeDetection.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\Fisheye.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\GlobalFog.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\Grayscale.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\ImageEffectBase.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\ImageEffects.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndGrain.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndScratches.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsHelper.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\Quads.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\ScreenOverlay.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\SepiaTone.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\TiltShift.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\Tonemapping.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\Triangles.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ribbon by Moonflower Carnivore\Scripts\randomParticleRotation.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ribbon by Moonflower Carnivore\Scripts\ReverseNormals.cs" />
+    <Compile Include="Assets\thirdParty\Particle Ribbon by Moonflower Carnivore\Scripts\rotation.cs" />
+    <Compile Include="Assets\thirdParty\Pixelplacement\iTween\iTween.cs" />
+    <Compile Include="Assets\thirdParty\Pixelplacement\iTween\Sample\MoveSample.cs" />
+    <Compile Include="Assets\thirdParty\Pixelplacement\iTween\Sample\RotateSample.cs" />
+    <Compile Include="Assets\thirdParty\Pixelplacement\iTween\Sample\SampleInfo.cs" />
+    <Compile Include="Assets\thirdParty\Pixelplacement\iTweenPath\iTweenPath.cs" />
+    <Compile Include="Assets\thirdParty\SimpleParticlePack\Scripts\ParticleTester.cs" />
+    <Compile Include="Assets\thirdParty\UnityLogger\Scripts\Log.cs" />
+    <Compile Include="Assets\thirdParty\UnityLogger\Scripts\LogMessage.cs" />
+    <Compile Include="Assets\thirdParty\UnityLogger\Scripts\StateColour.cs" />
+    <Compile Include="Assets\Z!M.O.B.A Environment Art Pack\Scripts\AutoRotary.cs" />
+    <Compile Include="Assets\Z!M.O.B.A Environment Art Pack\Scripts\Rulemovement.cs" />
+    <Compile Include="Assets\Z!M.O.B.A Environment Art Pack\Standard Assets\Environment\Water (Basic)\Scripts\WaterBasic.cs" />
+    <Compile Include="Assets\Z!M.O.B.A Environment Art Pack\Standard Assets\Environment\Water\Water\Scripts\Displace.cs" />
+    <Compile Include="Assets\Z!M.O.B.A Environment Art Pack\Standard Assets\Environment\Water\Water\Scripts\GerstnerDisplace.cs" />
+    <Compile Include="Assets\Z!M.O.B.A Environment Art Pack\Standard Assets\Environment\Water\Water\Scripts\MeshContainer.cs" />
+    <Compile Include="Assets\Z!M.O.B.A Environment Art Pack\Standard Assets\Environment\Water\Water\Scripts\PlanarReflection.cs" />
+    <Compile Include="Assets\Z!M.O.B.A Environment Art Pack\Standard Assets\Environment\Water\Water\Scripts\SpecularLighting.cs" />
+    <Compile Include="Assets\Z!M.O.B.A Environment Art Pack\Standard Assets\Environment\Water\Water\Scripts\Water.cs" />
+    <Compile Include="Assets\Z!M.O.B.A Environment Art Pack\Standard Assets\Environment\Water\Water\Scripts\WaterBase.cs" />
+    <Compile Include="Assets\Z!M.O.B.A Environment Art Pack\Standard Assets\Environment\Water\Water\Scripts\WaterTile.cs" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\NoiseEffectShaderRGB.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TriPlanarBlend_SfSrc.shader" />
+    <None Include="Assets\AllUIs\NGUI\Resources\Shaders\Unlit - Transparent ColoredDoubleMove.shader" />
+    <None Include="Assets\ProCore\ProBuilder\Shader\pb_TransparentOverlay.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendMobile.shader" />
+    <None Include="Assets\AllUIs\NGUI\Resources\Shaders\Unlit - Text 2.shader" />
+    <None Include="Assets\ProCore\Polybrush\README.txt" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TriPlanarBlendLegacy_SfSrc.shader" />
+    <None Include="Assets\Junk\shader\NormalImg.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendHeight.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\ShowAlphaChannel.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendWithVertexColor.shader" />
+    <None Include="Assets\ProCore\ProBuilder\Shader\pb_SelectionPicker.shader" />
+    <None Include="Assets\ProCore\ProBuilder\About\changelog.txt" />
+    <None Include="Assets\Junk\shader2\additiveOnUI.shader" />
+    <None Include="Assets\ProCore\ProBuilder\Shader\DiffuseVertexColor.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendHeight_SfSrc.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\SunShaftsComposite.shader" />
+    <None Include="Assets\AllUIs\NGUI\Resources\Shaders\Unlit - Text 1.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\ColorCorrectionCurves.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+    <None Include="Assets\AllUIs\NGUI\Resources\Shaders\Unlit - Transparent Colored 2.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\_Antialiasing\NFAA.shader" />
+    <None Include="Assets\AllUIs\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\Example\z_UnlitTextureBlend.shader" />
+    <None Include="Assets\Junk\shaders\tankPlayerShader4.shader" />
+    <None Include="Assets\Junk\shaders\OtherTeamHideShader.shader" />
+    <None Include="Assets\Junk\shader\shadowBlend.shader" />
+    <None Include="Assets\AstarPathfindingProject\Plugins\DotNetZip\DotNetZipLicense.txt" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_BaseWithDecals.shader" />
+    <None Include="Assets\ProCore\ProBuilder\Shader\pb_FaceHighlight.shader" />
+    <None Include="Assets\AllUIs\NGUI\Resources\Shaders\Unlit - Transparent ColoredMask.shader" />
+    <None Include="Assets\AstarPathfindingProject\Plugins\Poly2Tri\Poly2TriLicense.txt" />
+    <None Include="Assets\ProCore\Polybrush\ThirdPartyLicenses.txt" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\MotionBlur.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+    <None Include="Assets\Junk\shader\skillLight.shader" />
+    <None Include="Assets\Junk\shader2\UnityLightMapEnvShader2.shader" />
+    <None Include="Assets\Junk\shader\motionBlendShader.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendMobile_SfSrc.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\_Antialiasing\SSAA.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\RadialBlur.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\ContrastComposite.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TriPlanarBlendLegacy.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\FisheyeShader.shader" />
+    <None Include="Assets\ProCore\ProBuilder\Shader\UnlitSolidColor.shader" />
+    <None Include="Assets\Junk\shader\HeatHaze.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\Contrast Stretch\Apply.shader" />
+    <None Include="Assets\ProCore\ProBuilder\Shader\pb_ReferenceUnlit.shader" />
+    <None Include="Assets\Z!M.O.B.A Environment Art Pack\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+    <None Include="Assets\Junk\shaders\newBurnShader.shader" />
+    <None Include="Assets\Junk\shader2\tankShadow.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendModulate.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\frag_ao.cginc" />
+    <None Include="Assets\thirdParty\Heureka\AssetHunter\Readme.txt" />
+    <None Include="Assets\AllUIs\NGUI\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
+    <None Include="Assets\ProCore\ProBuilder\Shader\DiffuseTextureBlend.shader" />
+    <None Include="Assets\ProCore\ProBuilder\Shader\pb_StandardVertexColor.shader" />
+    <None Include="Assets\Junk\shaders\playerHideShader.shader" />
+    <None Include="Assets\AllUIs\NGUI\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
+    <None Include="Assets\AstarPathfindingProject\Plugins\dependencies.txt" />
+    <None Include="Assets\Junk\shader2\WireFrameReborn.shader" />
+    <None Include="Assets\AllUIs\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 2.shader" />
+    <None Include="Assets\ProCore\ProBuilder\Shader\pb_VertexPicker.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_VertexBillboard.shader" />
+    <None Include="Assets\ProCore\ProBuilder\Shader\pb_HideVertices.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlender.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\_DepthOfField\DepthOfField34.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendBmp.shader" />
+    <None Include="Assets\AllUIs\NGUI\Resources\Shaders\Unlit - Text 3.shader" />
+    <None Include="Assets\Junk\shader2\LaserGlare.shader" />
+    <None Include="Assets\AllUIs\NGUI\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\Example\z_UnlitTextureBlend_WithMetaData.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\SSAOShader.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\ConvertDepth.shader" />
+    <None Include="Assets\Junk\shader2\tankDeadShader.shader" />
+    <None Include="Assets\ProCore\ProBuilder\About\ThirdPartyLicenses.txt" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\ColorCorrectionCurvesSimple.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\NoiseEffectShaderYUV.shader" />
+    <None Include="Assets\ProCore\ProBuilder\Shader\pb_UnlitVertexColor.shader" />
+    <None Include="Assets\ProCore\ProBuilder\Shader\pb_FacePicker.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\CreaseApply.shader" />
+    <None Include="Assets\AllUIs\NGUI\Resources\Shaders\Unlit - Transparent Packed 1.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\Example\z_UnlitTextureBlendAndSnow.shader" />
+    <None Include="Assets\AllUIs\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 1.shader" />
+    <None Include="Assets\AstarPathfindingProject\Plugins\Clipper\ClipperLicense.txt" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\ChromaticAberrationShader.shader" />
+    <None Include="Assets\AllUIs\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\GlobalFog.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_StandardVertexColor.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\Contrast Stretch\Luminance.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+    <None Include="Assets\AllUIs\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\Noise.cginc" />
+    <None Include="Assets\ProCore\ProBuilder\About\Font\SIL Open Font License.txt" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\ColorCorrectionSelective.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\_DepthOfField\Bokeh34.shader" />
+    <None Include="Assets\Junk\shader\skillBlendShader.shader" />
+    <None Include="Assets\Junk\shader\GammaCorrect.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\CameraMotionBlurDX11.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+    <None Include="Assets\AllUIs\NGUI\Resources\Shaders\Unlit - Text.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\BlurEffectConeTaps.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\CameraMotionBlur.shader" />
+    <None Include="Assets\ProCore\ProBuilder\About\pc_AboutEntry_ProBuilder.txt" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\_Antialiasing\DLAA.shader" />
+    <None Include="Assets\Junk\shader2\SimpleDropShader.shader" />
+    <None Include="Assets\AllUIs\NGUI\Resources\Shaders\Unlit - Transparent Packed.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\NoiseAndGrainDX11.shader" />
+    <None Include="Assets\AllUIs\NGUI\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
+    <None Include="Assets\Junk\shader\MotionBlur.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+    <None Include="Assets\ProCore\ProBuilder\Shader\pb_VertexShader.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\_DepthOfField\SeparableBlur.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\MotionBlurClear.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\ColorCorrectionEffect.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\GrayscaleEffect.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\SepiaToneEffect.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\TwirlEffect.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\VortexEffect.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\Contrast Stretch\Adaptation.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_DiffuseVertexColor.shader" />
+    <None Include="Assets\thirdParty\MobaStorm\Textures\Shaders\OutlineDifusse.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\NoiseAndGrain.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlender_SfSrc.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\VignettingShader.shader" />
+    <None Include="Assets\AstarPathfindingProject\Plugins\JsonFx\JsonFxLicense.txt" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\Tonemapper.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendBmp_SfSrc.shader" />
+    <None Include="Assets\Junk\shaders\GhostShader.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\_Antialiasing\FXAA2.shader" />
+    <None Include="Assets\AstarPathfindingProject\Plugins\JsonFx\Readme.txt" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\ColorCorrection3DLut.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\EdgeDetectNormals.shader" />
+    <None Include="Assets\Junk\shader2\additiveUpGround.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\PrepareSunShaftsBlur.shader" />
+    <None Include="Assets\ProCore\ProBuilder\Shader\pb_ScrollHighlight.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TriPlanarBlend.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\_BloomAndFlares\Blend.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\BlendModesOverlay.shader" />
+    <None Include="Assets\Junk\shader\light.shader" />
+    <None Include="Assets\Z!M.O.B.A Environment Art Pack\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+    <None Include="Assets\Z!M.O.B.A Environment Art Pack\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+    <None Include="Assets\Junk\shader2\ShieldAdditive.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\SimpleClear.shader" />
+    <None Include="Assets\Junk\shader\shadowMap2.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendWithVertexColor_SfSrc.shader" />
+    <None Include="Assets\Junk\shader2\FlowLight.shader" />
+    <None Include="Assets\Junk\shader2\SimpleTankShader.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\_Antialiasing\FXAA3Console.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_Overlay.shader" />
+    <None Include="Assets\Junk\shaders\MyTeamHideShader.shader" />
+    <None Include="Assets\Junk\shaders\playerShader.shader" />
+    <None Include="Assets\ProCore\Polybrush\Font\Apache License.txt" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendModulate_SfSrc.shader" />
+    <None Include="Assets\thirdParty\Particle Ingredient Pack\Standard Assets\Effects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>J:/Xnovae/Moba/Client/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.StandardEvents">
+      <HintPath>J:/Xnovae/Moba/Client/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.BaselibModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.BaselibModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CloudWebServicesModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CloudWebServicesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.FacebookModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.FacebookModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticlesLegacyModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTrackingModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StyleSheetsModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TimelineModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TimelineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WebModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WebModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Locator">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Unity.Locator.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIAutomation">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GoogleAudioSpatializer">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Pathfinding.ClipperLib">
+      <HintPath>J:/Xnovae/Moba/Client/Assets/AstarPathfindingProject/Plugins/Clipper/Pathfinding.ClipperLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+      <HintPath>J:/Xnovae/Moba/Client/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+    </Reference>
+    <Reference Include="Pathfinding.JsonFx">
+      <HintPath>J:/Xnovae/Moba/Client/Assets/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
+    </Reference>
+    <Reference Include="Pathfinding.Poly2Tri">
+      <HintPath>J:/Xnovae/Moba/Client/Assets/AstarPathfindingProject/Plugins/Poly2Tri/Pathfinding.Poly2Tri.dll</HintPath>
+    </Reference>
+    <Reference Include="C5">
+      <HintPath>J:/Xnovae/Moba/Client/Assets/Plugins/C5.dll</HintPath>
+    </Reference>
+    <Reference Include="configDll">
+      <HintPath>J:/Xnovae/Moba/Client/Assets/Plugins/configDll.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.ProtocolBuffersLite">
+      <HintPath>J:/Xnovae/Moba/Client/Assets/Plugins/Google.ProtocolBuffersLite.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>J:/Xnovae/Moba/Client/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="protoDll">
+      <HintPath>J:/Xnovae/Moba/Client/Assets/Plugins/protoDll.dll</HintPath>
+    </Reference>
+    <Reference Include="StatePrinter">
+      <HintPath>J:/Xnovae/Moba/Client/Assets/Plugins/StatePrinter.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderCore-Unity5">
+      <HintPath>J:/Xnovae/Moba/Client/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderMeshOps-Unity5">
+      <HintPath>J:/Xnovae/Moba/Client/Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
+    </Reference>
+    <Reference Include="KdTreeLib">
+      <HintPath>J:/Xnovae/Moba/Client/Assets/ProCore/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="pb_Stl">
+      <HintPath>J:/Xnovae/Moba/Client/Assets/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
+    </Reference>
+    <Reference Include="Poly2Tri">
+      <HintPath>J:/Xnovae/Moba/Client/Assets/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>C:/Users/Flame/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.7/UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Users/Flame/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>C:/Users/Flame/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.1/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StandardEvents">
+      <HintPath>C:/Users/Flame/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript">
+      <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/UnityScript.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript.Lang">
+      <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/UnityScript.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{079D398E-4AFC-CD7E-7881-F923D075EBD1}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

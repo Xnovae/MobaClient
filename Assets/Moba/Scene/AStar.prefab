@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1361501364400386}
+  m_IsPrefabParent: 1
+--- !u!1 &1361501364400386
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4846944204667388}
+  - component: {fileID: 114824659302625400}
+  m_Layer: 0
+  m_Name: AStar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4846944204667388
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1361501364400386}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.06233839, y: 2.4744124, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114824659302625400
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1361501364400386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78396926cbbfc4ac3b48fc5fc34a87d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  astarData:
+    dataString: UEsDBBQAAAgIAABAIezYApKoOwIAAFYEAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFdUl1v2jAU/SuTnzOU0AQYbx20bFPXombTHqY+GOeGWDh25I/xUfHfd+2EQCqkhJz7ec6572TreEHm7+QfFQ7InECSlBnESQpZkWV09rmcQpmN07tpWsYs3UzJOSLUNMDsK7VckXkSEW5UDVZzdi+3ArvEEXGSl0rXD8UWFspYQ+YlFQYiopX1ddIPPYTUY3ie8ImtGUgLugtOslGSZml2kzNJR+Msm87OfgQTtG6gyPkJuopk0jbEN2ZIVUAbxCWZEoKbbrI9Np5t3lSggUSk4BQZ+MHjiFTAt5UNf/uil7I0YMMWmh6XXKMAoRf5qmyFHWpqdjdCzu5ms0ns12y7/RyGs2SMoVKr+ls3LImxta04273SI6PG9ordgst+z8QLsKdiRzcC/lQgn9VKKyfRTasdljkD42XfpCeyqIDtLjntbgPINQNnks6Zs2d4WAheb/BzlF4/7w/chDwEcqG8rl+wFjSK/x1XDW6b0A8xv8JvA7/o9noSHfzItbEYCM2os+qJy91K8+KaeUGX3NgnXvOgG/rsaWyU05hJHoKeyNjZhdISPNhSa0BSYY9rnGaHln6I9PM+4I+UWdVq30W6gx+mB7DPjeNhYK32F/8M/HB1s1Zc2hyoZtXVczhYp2FJLfV2YDm6XPRhg1wZzpVOCDyjMApp/o0j/L0h94pKCcJD5FlJf+G3rzd0k0ukRMW63SyogN7Ji1YS7wzF9PJ/Wmna+BMvNN2v+KlWvaJclipnGkC+hNqw3vk/UEsDBBQAAAgAAABAIewef112MgAAADIAAAASACQAZ3JhcGgwX2VkaXRvci5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BeyJsb2NrZWQiOnRydWUsInNob3dFeHRyYSI6ZmFsc2UsInBpdm90IjoiQ2VudGVyIn1QSwMEFAAACAgAAEAh7DOOEPJ1AAAAgwAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQEdjLEOgjAQQP/lZmxaaVPC6sBG3A1D9e6gg1dSiokx/rvU7Q3vvQ+8KG8xCfTQqk4ZaGDOYV026M2Be8SDbkDGsCNtLDl0LnQn9sTubFtvWT/s3cPUQHmvNIYn/YtrKAtHwSizGnLEoV6rJQnpknYpVdPT9wdQSwECLQAUAAAICAAAQCHs2AKSqDsCAABWBAAACwAkAAAAAAAAAAAAAAAAAAAAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwECLQAUAAAIAAAAQCHsHn9ddjIAAAAyAAAAEgAkAAAAAAAAAAAAAACIAgAAZ3JhcGgwX2VkaXRvci5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAAEAh7DOOEPJ1AAAAgwAAAAkAJAAAAAAAAAAAAAAADgMAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAwADABwBAADOAwAAAAA=
+    upgradeData: 
+    data_backup: 
+    file_cachedStartup: {fileID: 4900000, guid: 84a65be5802e04d4692a73cd7916f83d,
+      type: 3}
+    data_cachedStartup: 
+    cacheStartup: 1
+  showNavGraphs: 1
+  showUnwalkableNodes: 1
+  debugMode: 0
+  debugFloor: 0
+  debugRoof: 1
+  manualDebugFloorRoof: 0
+  showSearchTree: 0
+  unwalkableNodeDebugSize: 0.3
+  logPathResults: 1
+  maxNearestNodeDistance: 100
+  scanOnStartup: 1
+  fullGetNearestSearch: 0
+  prioritizeGraphs: 0
+  prioritizeGraphsLimit: 1
+  colorSettings:
+    _NodeConnection: {r: 1, g: 1, b: 1, a: 0.9}
+    _UnwalkableNode: {r: 1, g: 0, b: 0, a: 0.5}
+    _BoundsHandles: {r: 0.29, g: 0.454, b: 0.741, a: 0.9}
+    _ConnectionLowLerp: {r: 0, g: 1, b: 0, a: 0.5}
+    _ConnectionHighLerp: {r: 1, g: 0, b: 0, a: 0.5}
+    _MeshEdgeColor: {r: 0, g: 0, b: 0, a: 0.5}
+    _MeshColor: {r: 0.125, g: 0.686, b: 0, a: 0.19}
+    _AreaColors: []
+  tagNames: []
+  heuristic: 2
+  heuristicScale: 1
+  threadCount: 0
+  maxFrameTime: 1
+  minAreaSize: 0
+  limitGraphUpdates: 1
+  maxGraphUpdateFreq: 0.2
+  euclideanEmbedding:
+    mode: 0
+    seed: 0
+    pivotPointRoot: {fileID: 0}
+    spreadOutCount: 1
+  showGraphs: 1
+  lastUniqueAreaIndex: 0

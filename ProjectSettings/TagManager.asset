@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Barrel
+  - LightMapCamera
+  - UIRoot
+  - Npc
+  - Mesh
+  - Knapsackitem
+  - Enemy
+  - LightCamera
+  - Enermy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Light2
+  - Ground
+  - Obstacle
+  - Light
+  - PlayerCamera
+  - Npc
+  - SceneProps
+  - IgnoreCollision
+  - ignoreCollision2
+  - Block
+  - Bomb
+  - SkillLight
+  - ShadowMap
+  - MotionBlur
+  - TankPass
+  - Wall
+  - Floor
+  - GrassHide
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

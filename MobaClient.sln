@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobaClient", "Assembly-CSharp.csproj", "{DD2C2FE1-A63C-8414-6AD5-6A5B6583B923}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobaClient", "Assembly-CSharp-firstpass.csproj", "{68D3BAC1-8317-51C9-7A89-F5C9DF6B48F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobaClient", "Assembly-CSharp-Editor.csproj", "{E192A3F0-7A58-AA77-8FA1-342AEE1209E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD2C2FE1-A63C-8414-6AD5-6A5B6583B923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD2C2FE1-A63C-8414-6AD5-6A5B6583B923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD2C2FE1-A63C-8414-6AD5-6A5B6583B923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD2C2FE1-A63C-8414-6AD5-6A5B6583B923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68D3BAC1-8317-51C9-7A89-F5C9DF6B48F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68D3BAC1-8317-51C9-7A89-F5C9DF6B48F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68D3BAC1-8317-51C9-7A89-F5C9DF6B48F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68D3BAC1-8317-51C9-7A89-F5C9DF6B48F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E192A3F0-7A58-AA77-8FA1-342AEE1209E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E192A3F0-7A58-AA77-8FA1-342AEE1209E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E192A3F0-7A58-AA77-8FA1-342AEE1209E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E192A3F0-7A58-AA77-8FA1-342AEE1209E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
